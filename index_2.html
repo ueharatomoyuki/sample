@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="jp">
+<head>
+    <meta charset="UTF-8">
+    <title>アンケート</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="ttl"><h2>アンケート<h2></div>
+        <hr color="blue">
+    <div class="text">
+        <p>Axizの研修をご利用いただき、誠にありがとうございます。<br>
+     以下の内容の記入及び送信をして頂けると幸いです。</p>
+         <form action="result_1.html">
+             <p>  会社名<span>必須</span><br>
+               <input type="text" id="sya" name="sya" placeholder="例)株式会社テクノコア" required ></p>
+               <p>お名前<span>必須</span> <br>
+               <input type="text" id="name" name="name" placeholder="例)手久野　興亜 " required> </p> 
+                <p><label for="me" >メールアドレス</label><br>
+                <input type="text" id="me" name="me" placeholder="例)example@axiz.co.jp" >
+                </label> </p> 
+                <p><lebel for="na">年齢</lebel><br>
+                <input type="number" id="na" name="na" size="1"> </p> 
+                <p><label for="ju">受講コース</label> <br>
+                <input type="radio" name="co" value="ja" > java
+                <input type="radio" name="co" value="i" > インフラ</p>
+                <p><label for="kai">会場</label> <br>
+                <select id="kai" mame="kai"><br>
+                    <option value="0">日本橋A会場</option>
+                </select> </p>
+               <p> <label>詳しく学びたい内容(複数回答可)</label><br>
+                <label><input type="checkbox" name="study" value="bizi">ビジネスマナー</label><br>
+                <label><input type="checkbox" name="study" value="ht/css">HTML/CSS</label><br>
+                <label><input type="checkbox" name="study" value="jas">javaScript</label><br>
+                <label><input type="checkbox" name="study" value="java">java</label><br>
+                <label><input type="checkbox" name="study" value="db">データベース</label><br>
+                <label><input type="checkbox" name="study" value="li">Linux</label><br></p>
+                 <label for="message">ご意見</label><br>
+                <textarea rows="8" cols="50" id="message" name="message">自由にご記入ください</textarea>
+                <p><button type="submit">送信する</button></p>
+            </form>
+     </div>
+    </div>
+    <hr color="blue">
+    Copyright(c) Axiz
+</body>
+</html>

@@ -1,0 +1,21 @@
+body{
+    text-align: center;
+}
+body {
+    background-image: url(images/bg_Argyle.jpg);
+   }
+.waku{
+    display: inline-block;
+    margin:3px 3px 3px 3px;
+    border:2px solid #afadad;
+    border-radius: 10px;
+    padding: 4px;
+}
+.wakub{
+    display: inline-block;
+    background-color: #ffffff;
+    margin:5px 5px 5px 5px;
+    border:1px solid #ac11cb;
+    border-radius: 8px;
+    padding: 20px;
+}

@@ -1,0 +1,27 @@
+.ttl{
+    color: rgb(60, 255, 0);
+}
+body{
+    background-color: rgb(136, 244, 244);
+    /* text-align: center */
+}
+body {
+	margin: 16px auto;
+	text-align: center;
+	display: block;
+}
+body .text {
+	text-align: left;
+	display: inline-block;
+    display: inline-block;
+    background-color: #ffffff;
+    margin:5px 5px 5px 5px;
+    /* border:1px solid #ac11cb; */
+    border-radius: 10px;
+    padding: 20px;
+}
+span{
+    background-color:#fe3e3e;
+    color:#ffffff;
+    border-radius: 5px;
+}

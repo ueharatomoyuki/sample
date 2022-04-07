@@ -1,0 +1,27 @@
+body {
+   background-image: url(images/bg_Argyle.jpg);
+  }
+  .curyy{
+      display: inline-block;
+      padding:5px;
+        border :double 10px  #ff3030 ;     
+  }
+  .a{
+      text-align: center;
+  }
+  .zai{
+   color: red;
+  }
+table{
+    border-color:#ff0000;
+    border-width:2px;
+    background-color: #fcf3cb;
+}
+.back{
+    text-align: center;
+}
+
+
+ssh-ed25519 AAAAC3NzaC1lZDI1NTE5AAAAIKsqzrebJlS07tIfTcimJC1QASddLyGt1CdT+H0VWpJH 22uehara_tomoyuki@axiz.co.jp
+
+
